@@ -1,6 +1,10 @@
 # Ignore backend and mobile-app directories
-backend/
-mobile-app/
+backend/node_modules/
+mobile-app/node_modules/
+backend/dist/
+mobile-app/build/
+backend/src/config/settings.ts
+mobile-app/src/config/environment.ts
 
 # Common ignores
 node_modules/
