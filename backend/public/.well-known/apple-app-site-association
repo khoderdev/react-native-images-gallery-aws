@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TEAMID.com.imagesgallery.app"
+        ],
+        "components": [
+          {
+            "path": "/profile/*",
+            "comment": "User profile deep links"
+          }
+        ]
+      }
+    ]
+  }
+} 

@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "Images Gallery",
+    "slug": "images-gallery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "imagesgallery",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "associatedDomains": ["applinks:imagesgallery.app"],
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to camera to take photos for the gallery.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select images for the gallery."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#667eea"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "imagesgallery.app"
+            }
+          ]
+        },
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "imagesgallery"
+            }
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos to upload images to the gallery.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to take photos for the gallery."
+        }
+      ]
+    ]
+  }
+} 

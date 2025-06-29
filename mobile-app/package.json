@@ -1,0 +1,42 @@
+{
+  "name": "images-gallery-mobile",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.1.14",
+    "@react-navigation/stack": "^7.4.2",
+    "axios": "^1.10.0",
+    "expo": "~53.0.13",
+    "expo-camera": "~16.1.9",
+    "expo-constants": "~17.1.6",
+    "expo-image-picker": "~16.1.4",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-linking": "^7.1.5",
+    "expo-media-library": "~17.1.7",
+    "expo-permissions": "~14.4.0",
+    "expo-secure-store": "~14.2.3",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.1.0",
+    "react-native": "0.80.0",
+    "react-native-gesture-handler": "~2.26.0",
+    "react-native-safe-area-context": "^5.5.0",
+    "react-native-screens": "^4.11.1",
+    "expo-dev-client": "~5.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@types/react": "~19.1.8",
+    "@types/react-native": "~0.73.0",
+    "typescript": "^5.8.3"
+  },
+  "private": true
+}
