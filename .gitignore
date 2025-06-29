@@ -1,0 +1,11 @@
+# Ignore backend and mobile-app directories
+backend/
+mobile-app/
+
+# Common ignores
+node_modules/
+*.log
+.env
+.DS_Store
+*.tmp
+*.temp 
